@@ -1,0 +1,154 @@
+html
+{
+    background-color: #cc3a27;
+    width: 100vw;
+    height: 100vh;
+}
+
+.rectangle
+{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.card1
+{
+    margin-right: 50px;
+    width: 20%;
+    height: 450px;
+    border-radius: 10px;
+    border: 1px solid #cc3a27;
+    background-color: white;
+    box-shadow: 1px 2px 2px black;
+    cursor: pointer;
+}
+
+.card1:hover
+{
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+.card2
+{
+    width: 20%;
+    height: 450px;
+    border-radius: 10px;
+    border: 1px solid #cc3a27;
+    background-color: white;
+    box-shadow: 1px 2px 2px black;
+    cursor: pointer;
+}
+
+.card2:hover
+{
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+.card3
+{
+    margin-left: 50px;
+    width: 20%;
+    height: 450px;
+    border-radius: 10px;
+    border: 1px solid #cc3a27;
+    background-color: white;
+    box-shadow: 1px 2px 2px black;
+    cursor: pointer;
+}
+
+.card3:hover
+{
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+img
+{
+    margin-top: 10px;
+    margin-left: 28px;
+    width: 80%;
+    border-radius: 10px;
+    border-inline: 2px black solid;
+}
+
+#donald
+{
+    margin: 0%;
+    text-align: center;
+}
+
+#daffy
+{
+    margin: 0%;
+    text-align: center;
+}
+
+#scrooge
+{
+    margin: 0%;
+    text-align: center;
+}
+
+p
+{
+    font-size: large;
+}
+
+@media (max-width: 700px) {
+	.rectangle
+	{
+        margin: 0;
+        width: 90vw;
+        height: 160vh;
+	}
+
+    .card1
+    {
+        margin: 0;
+        width: 300px;   
+        height: 400px;
+        position: absolute;
+        left: 20px;
+
+    }
+
+    .card2
+    {
+        margin: 0;
+        width: 300px;   
+        height: 400px;
+        position: absolute;
+        left: 20px;
+        top: 450px;
+
+    }
+
+    .card3
+    {
+        margin: 0;
+        width: 300px;   
+        height: 400px;
+        position: absolute;
+        left: 20px;
+        top: 900px;
+
+    }
+
+    .card1:hover
+    {
+        transform: none;
+    }
+  
+      .card2:hover
+    {
+        transform: none;
+    }
+  
+      .card3:hover
+    {
+        transform: none;
+    }
+}
